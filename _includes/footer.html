@@ -1,0 +1,64 @@
+<!-- Main Footer -->
+<footer class="main-footer alternate-two">
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+        <div class="auto-container">
+            <div class="outer-table clearfix">
+                {% if site.phone_number %}
+                <div class="info-block">
+                    <div class="inner">
+                        <div class="icon"><span class="flaticon-telephone-1"></span></div>
+                        <span class="info-title">Phone Number</span>
+                        <div class="phone"><a href="tel:{{site.phone_number}}">{{site.phone_number}}</a></div>
+                    </div>
+                </div>
+                {% endif %}
+                {% if site.email %}
+                <div class="info-block">
+                    <div class="inner">
+                        <div class="icon"><span class="flaticon-envelope"></span></div>
+                        <span class="info-title">email</span>
+                        <div class="email"><a href="mailto:{{site.email}}">{{site.email}}</a></div>
+                    </div>
+                </div>
+                {% endif %}
+                {% if site.office_address %}
+                <div class="info-block">
+                    <div class="inner">
+                        <div class="icon"><span class="flaticon-placeholder"></span></div>
+                        <span class="info-title">office</span>
+                        <div class="address"><a href="{{site.office_address_url}}">{{site.office_address}}</a></div>
+                    </div>
+                </div>
+                {% endif %}
+                <div class="info-block">
+                    <div class="inner">
+                        <div class="icon"><span class="flaticon-share"></span></div>
+                        <span class="info-title">social connect</span>
+                        <div class="social-links">
+                            {% if site.facebook_url %}
+                             <a href="{{site.facebook_url}}">fb</a> 
+                            {% endif %}
+                            {% if site.twitter_url %}
+                            <a href="{{site.twitter_url}}"><img src="{{relative_url}}/assets/images/icons/x_96.png" class="smicon" alt="" /></a> 
+                            {% endif %}
+                            {% if site.behance_url %}
+                            <a href="{{site.behance_url}}">be</a> 
+                            {% endif %}
+                            {% if site.dribbble_url %}
+                            <a href="{{site.dribble_url}}">dr</a>
+                            {% endif %}
+                            {% if site.youtube_url %}
+                            <a href="{{site.youtube_url}}">yu</a>
+                            {% endif %}
+                            {% if site.github_url %}
+                            <a href="{{site.github_url}}"><img src="{{relative_url}}/assets/images/icons/github_logo.png" class="smicon" alt="" /></a>
+                            {% endif %}
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>

@@ -1,0 +1,53 @@
+ - text: Home
+   url: "/"
+#   dropdown:
+#    - text: "Home 2"
+#      url: "/index-2"
+#    - text: "Home 3"
+#      url: "/index-3"
+#    - text: "Home 4"
+#      url: "/index-4"
+#    - text: "Home 5"
+#      url: "/index-5"
+
+ - text: About
+   url: "/about.html"
+#   dropdown:
+#    - text: "About us"
+#      url: "/about.html"
+#    - text: "Our Team"
+#      url: "/team.html"
+
+ - text: Services
+   url: "#"
+   dropdown:
+    - text: "Investigation"
+      url: "/investigation"
+    - text: "Training"
+      url: "/training"
+    - text: "R&D"
+      url: "/research"
+    - text: "Consultancy"
+      url: "/consult"
+    - text: "Reversing"
+      url: "/reverse"
+    - text: "Data enrichment"
+      url: "/enrich"
+# - text: Portfolio
+#   url: "#"
+#   dropdown:
+#    - text: "Portfolio"
+#      url: "/portfolio.html"
+#    - text: "Portfolio 2"
+#      url: "/portfolio-2"
+
+# - text: "News"
+#   url: "#"
+#   dropdown: 
+#    - text: "Blog"
+#      url: "/blog.html"
+#    - text: "Blog 2"
+#      url: "/blog-2.html"
+#
+ - text: "Contact"
+   url: "contact.html"
