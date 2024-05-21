@@ -11,7 +11,7 @@
 #      url: "/index-5"
 
  - text: About
-   url: "/about.html"
+   url: "/about"
 #   dropdown:
 #    - text: "About us"
 #      url: "/about.html"
@@ -19,7 +19,7 @@
 #      url: "/team.html"
 
  - text: Services
-   url: "#"
+   url: "/#"
    dropdown:
     - text: "Investigation"
       url: "/investigation"
@@ -41,8 +41,11 @@
 #    - text: "Portfolio 2"
 #      url: "/portfolio-2"
 
-# - text: "News"
-#   url: "#"
+# BLOG
+# - text: "Publications"
+#   url: "/posts"
+
+
 #   dropdown: 
 #    - text: "Blog"
 #      url: "/blog.html"
@@ -50,4 +53,4 @@
 #      url: "/blog-2.html"
 #
  - text: "Contact"
-   url: "contact.html"
+   url: "/contact"
