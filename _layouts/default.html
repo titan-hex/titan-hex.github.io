@@ -12,6 +12,16 @@
         <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0,maximum-scale=2.0,minimum-scale=1.0" />
         <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
         <!--[if lt IE 9]><script src="{{relative_url}}/assets/js/respond.js"></script><![endif]-->
+      <script>
+            function nospam(data, key) {
+                data = atob(data);
+                let email = "";
+                for (let i = 0; i < data.length; i++) {
+                  email += String.fromCharCode(data.charCodeAt(i) ^ key.charCodeAt(i % key.length));
+                }
+                window.location.href = `mailto:${email}`;
+            }
+      </script>
     </head>
     <body>
         <div class="page-wrapper">
