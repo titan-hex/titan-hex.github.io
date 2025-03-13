@@ -4850,7 +4850,7 @@ img.lazy-image.loaded{
 
 .testimonial-section{
 	position:relative;
-	padding: 140px 0px 120px;
+	padding: 10px 0px 120px;
 	background: #f0f9ff;
 }
 
@@ -4982,10 +4982,10 @@ img.lazy-image.loaded{
 .testimonial-block .content .text{
 	position: relative;
 	color: #05232d;
-	font-size: 36px;
+	font-size: 16px;
 	text-transform: uppercase;
 	line-height: 1.45em;
-	font-family: 'Gilroy-Bold', sans-serif;
+	font-family: 'Gilroy-bold', sans-serif;
 }
 
 .light-style .testimonial-block .content .info h4,
@@ -8510,7 +8510,7 @@ img.lazy-image.loaded{
 
 .portfolio-section-three{
  	position: relative;
- 	padding: 120px 0px;
+ 	padding: 0px 0px;
 }
 
 .portfolio-section-three .lower-link{
@@ -8622,9 +8622,9 @@ img.lazy-image.loaded{
 	position: relative;
 	display: block;
 	text-align: center;
-	width: 64px;
-	height: 64px;
-	line-height: 64px;
+	width: 32px;
+	height: 32px;
+	line-height: 32px;
 	color: #ff6000;
 	background: #ffffff;
 	overflow: hidden;
@@ -8649,7 +8649,7 @@ img.lazy-image.loaded{
 
 .gallery-item-two .zoom-btn{
 	position: absolute;
-	right: 66px;
+	right: 32px;
 	bottom: 0;
 	z-index: 2;
 	opacity: 0;
@@ -8677,9 +8677,9 @@ img.lazy-image.loaded{
 	position: relative;
 	display: block;
 	text-align: center;
-	width: 64px;
-	height: 64px;
-	line-height: 64px;
+	width: 32px;
+	height: 32px;
+	line-height: 32px;
 	color: #ff6000;
 	background: #ffffff;
 	overflow: hidden;

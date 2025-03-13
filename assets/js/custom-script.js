@@ -329,7 +329,7 @@
 			nav:true,
 			smartSpeed: 500,
 			autoplay: 5000,
-			autoplayTimeout:5000,
+			autoplayTimeout:25000,
 			navText: [ '<span class="icon flaticon-left-arrow"></span>', '<span class="icon flaticon-right-arrow-1"></span>' ],
 			responsive:{
 				0:{
